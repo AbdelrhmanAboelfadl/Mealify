@@ -114,6 +114,9 @@ section#Menu .tab-content .tab-pane .container-fluid .row .item {
 .part1.coloum{
     margin-bottom: 30px;
 }
+.totop{
+    display: none;
+}
 }
 @media (min-width: 371px) and (max-width: 1300px) {
 header .container .row .box h1 {
