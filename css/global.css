@@ -53,3 +53,7 @@ p{
 .totop.show{
     transform: translateX(0);
 }
+a{
+    color: white;
+    text-decoration: none;
+}

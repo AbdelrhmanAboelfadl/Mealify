@@ -117,6 +117,11 @@ section#Menu .tab-content .tab-pane .container-fluid .row .item {
 .totop{
     display: none;
 }
+.book .box .body .row .coll i {
+    width: 40px;
+    height: 30px;
+    font-size: 14px;
+}
 }
 @media (min-width: 371px) and (max-width: 1300px) {
 header .container .row .box h1 {
@@ -130,6 +135,14 @@ header .container .row .box p {
 }
 .book .box {
     width: 270px;
+}
+.book .box .body .row .coll i {
+    width: 36px;
+    height: 35px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 }
 @media (min-width: 577px) and (max-width: 1300px) {
