@@ -3,6 +3,7 @@ links.click(function () {
     links.removeClass("active");
     $(this).addClass("active");
 });
+let LoadingPage = document.querySelector(".loading");
 let btnToTop = document.querySelector(".totop");
 let Home = document.querySelector("#Home").offsetTop;
 let Chef = document.querySelector("#Chiefs");
@@ -23,5 +24,12 @@ window.addEventListener("scroll", () => {
         btnToTop.classList.remove("show");
     }
 });
+
+window.addEventListener("load",() => {
+    setTimeout(() => {
+        LoadingPage.classList.add("loaded");
+    },2000)
+})
+
 scrollSpy();
 scrolling();
